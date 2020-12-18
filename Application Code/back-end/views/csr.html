@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../botui/build/botui.min.css" />
+    <link rel="stylesheet" href="../botui/build/botui-theme-default.css" />
+    <link rel="stylesheet" href="../styles/csrstyle.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>      
+</head>
+<body>
+
+<!-- <h1>OBOT FOR CSR</h1> -->
+
+<!-- <div class="grid-container">
+  <div id="orders">Orders Dept.</div>
+  <div id="assembly">Assembly Dept.</div>
+  <div id="manufacture">Manufacture Dept.</div>  
+  <div id="logistics">Logistics Dept.</div> 
+</div> -->
+
+<!-- <div id="title"><img src="https://visualpharm.com/assets/825/Bot-595b40b65ba036ed117d3818.svg" alt="Avatar" class="avatar">OBOT:online</div> -->
+
+<div id="id01" class="modal">
+  
+    <form class="modal-content animate" action="/" method="post">
+      <div class="imgcontainer">
+        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      </div>
+  
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+  
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+          
+        <button type="submit">Login</button>
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+  
+      <div class="container" style="background-color:#f1f1f1">
+        <button onclick="document.getElementById('id01').style.display='none';document.getElementById('myBot').style.display='block'" class="cancelbtn" id="lbtn">Submit</button>
+        
+      </div>
+    </form>
+</div>
+
+<div id="myBot" class="scrollbar">
+    <bot-ui id="botUI"></bot-ui>
+</div> 
+
+<script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script src="../../jquery.nicescroll-3.7.6/jquery.nicescroll.js"></script> -->
+<script src="../botui/build/botui.min.js"></script>
+<script src="../js/csr.js"></script>
+
+</body>
+</html>

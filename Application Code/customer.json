@@ -1,0 +1,67 @@
+{"intents": [
+        {"tag": "greeting",
+        "patterns": ["Hi", "How are you?", "Is anyone there?", "Hello", "Good day", "Whats up","Hey","OBOT","I need help","Hey"],
+        "responses": ["Hello I m here! Welcome!..Glad that your here..!!", "Hey Buddy!! How can i help you,friend?","OBot here to help you dear"],
+        "context_set": ""
+        },
+        {"tag": "Know more about me",
+        "patterns": ["About OBOT","About you","I wanna know more...", "Please help","know more about obot","Tell me about you"],
+        "responses": ["OBOT is a support chatbot..err i m not a Robot because i understand you.. :-) !!","OBOT has many friends and you are one of them..I solve the problems of my friends.. "],
+        "context_set": ""
+        },
+        {"tag": "goodbye",
+        "patterns": ["Seeya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","Thanks","Bye","Talk to you later"],
+        "responses": ["GoodByes are tough uff..but..will wait for our next talk my buddy..","See ya..Take Care and have a nice day..Keep Smiling","I hope i made you smile..OBOT will always be there for your help.."],
+        "context_set": ""
+        },
+        {"tag": "status",
+        "patterns": ["what is the order status", "what is the current status","Need to track my order","Order status check..","find my order","can i have my order status", "status?","what is the status of the order?","when will my order reach","Need to know the order status","order status", "where is my order"],
+        "responses": ["Waiting is bitter..but its fruit is sweet..Kindly wait..for the response", "Hey! dont go away.. give me a sec..will be back to you.. "],
+        "context_set": ""
+        },
+        {"tag": "order",
+        "patterns": ["what is my order","show me my order", "order view?","what have i ordered?","Need to know my order","when will my order be delivered"],
+        "responses": ["Taking time for being acurate..please wait..Your Order:", "I m Working..Wait for your friend while its fetching the info..Your Orders:"],
+        "context_set": ""
+        },
+        {"tag": "cancel",
+        "patterns": ["want to cancel an order", "A request to cancel an order", "Cancellation","cancel my order"," Request for cancellation","order cancel"],
+        "responses": ["Oh..Doing the needful please wait:..", "Its a bit tideous task..will need time please wait.."],
+        "context_set": ""
+        },
+        {"tag": "delay",
+        "patterns": ["why is my order delayed?","delayed order", "why is there a delay in the delivery", "will my order be delivered?","when will my order arrive?","order delayed"],
+        "responses": ["Sometimes...delays are inevitable..tracing your order..Contacting the concering department..","Give me a minute..Let me check the status.."],
+        "context_set": ""
+        },
+        {"tag": "refund",
+        "patterns": ["refund status?", "where is my refund", "wheres my money","request a refund","order refund"],
+        "responses": ["please wait while I consult the finance department","Connecting to the finance guys..please wait till they respond.."],
+        "context_set": ""
+        },
+        {"tag": "complaint",
+        "patterns": ["I have an issue with the order", "i want to book a complaint", "complains","issues found","order complaint","i m not happy","i m not statisfied","malfunction"],
+        "responses": ["Apologise for the dissatisfaction...please let us know what happened:","We learn from our mistakes..i m still progressing..please provide the details so that I can find a solution"],
+        "context_set": ""
+        }
+        {"tag": "Update",
+        "patterns": ["I have to make a change in the order", "Update my orders", "Need to make changes","Change details","Change the address","change in quantity","Alter address"],
+        "responses": ["Find the order to make the desired changes..","please provide us the details so that we take care of your changes:"],
+        "context_set": ""
+        }
+
+        {"tag": "positive",
+        "patterns": ["I loved it", "It was really good", "I enjoyed the conversation","U super talented OBOT","I really liked your service..","your service was really helpful to me","Your Cool"],
+        "responses": ["Aww..i feel extremely embraced..this is really motivating to me","Eyy..this makes me blush..thanks for complementing me..Your sweet too.."],
+        "context_set": ""
+        }
+
+	
+        {"tag": "feedback",
+        "patterns": ["I have a feedback:", "I want to give a feedback:", "my feedback is","Give a feedback"],
+        "responses": ["Being expressive and frank is nice...Your feedback is very valuable..please go ahead","Your feedback will be processed for betterment of our further interactions..plz give the feedback:"],
+        "context_set": ""
+        }
+
+]
+}

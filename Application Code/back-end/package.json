@@ -1,0 +1,31 @@
+{
+  "name": "live",
+  "version": "0.0.1",
+  "scripts": {
+    "start:server": "node server.js",
+    "start:sockets": "NODE_ENV='development' node sockets/main.js",
+    "test": "NODE_ENV='test' mocha"
+  },
+  "main": "server.js",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "config": "3.0.1",
+    "cors": "2.8.5",
+    "express": "4.16.4",
+    "express-winston": "3.0.1",
+    "faker": "^4.1.0",
+    "helmet": "3.15.0",
+    "jsonwebtoken": "8.4.0",
+    "lodash": "4.17.11",
+    "mongoosastic": "4.4.1",
+    "mongoose": "5.4.4",
+    "nodemailer": "5.1.1",
+    "redis": "2.8.0",
+    "request": "2.88.0",
+    "request-promise": "4.2.2",
+    "useragent": "2.3.0",
+    "uuid": "3.3.2",
+    "winston": "3.1.0"
+  }
+}

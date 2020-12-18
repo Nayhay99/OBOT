@@ -1,0 +1,20 @@
+{
+  "host": "localhost",
+  "PORT": 3344,
+  "url": "http://localhost:3344",
+  "db": "mongodb://localhost/obot",
+  "corsAllowedDomains": "*",
+  "tokenSecret": "f@1edszlCSAy5%ÃXCVr623gjmkmslcmš21%^2scb2",
+  "tokenPrefix": "Bearer",
+  "mail": {
+    "email": "testtesttest12312341@gmail.com",
+    "password": "testing@123",
+    "host": "smtp.gmail.com",
+    "port": 465,
+    "secure": true
+  },
+  "redis": {
+    "port": 6379,
+    "host": "127.0.0.1"
+  }
+}

@@ -1,0 +1,21 @@
+body{
+    padding:30px;
+    max-width:1000px;
+    margin: 70px auto 0px auto;
+    font-family: "Noto Serif", serif; 
+    font-size: 16px;
+    background-color:white;
+    /* background-image: url("https://raw.githubusercontent.com/pc799/order-status-chatbot/master/Application%20Code/front-end/img/dell-logo.png");
+    background-repeat:no-repeat ;
+    background-size: 20%;
+    background-position: relative; */
+} 
+#myBot{
+    background-color: black;
+    height: 80vh;
+    overflow-y: auto;
+    background-image: url("https://raw.githubusercontent.com/pc799/order-status-chatbot/master/Application%20Code/front-end/img/dell-logo.png");
+    background-repeat:no-repeat ;
+    background-size: 20%;
+    background-position: center;
+}
